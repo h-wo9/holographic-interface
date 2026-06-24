@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXUS // Digital Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <div id="loader">
+    <div class="loader-ring"></div>
+    <div class="loader-text">INITIALIZING<span class="loader-pct">0%</span></div>
+  </div>
+
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <canvas id="bg-canvas"></canvas>
+  <div class="noise-overlay"></div>
+  <div class="vignette"></div>
+
+  <header class="navbar glass">
+    <div class="nav-logo">
+      <span class="nav-logo-mark">◈</span>NEXUS
+    </div>
+    <nav class="nav-links">
+      <a href="#system" data-hover>SYSTEM</a>
+      <a href="#archive" data-hover>ARCHIVE</a>
+      <a href="#protocol" data-hover>PROTOCOL</a>
+    </nav>
+    <a href="#connect" class="btn-glow" data-hover>CONNECT</a>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <p class="hero-eyebrow" data-reveal>// SYSTEM ONLINE — V.2.0.26</p>
+      <h1 class="hero-title" data-reveal>
+        <span class="line">ENTER THE</span>
+        <span class="line gradient-text">DIGITAL UNIVERSE</span>
+      </h1>
+      <p class="hero-sub" data-reveal>
+        A next-gen interface suspended between light and code —
+        holographic surfaces, fluid particle fields, and a universe that reacts to your presence.
+      </p>
+      <div class="hero-cta" data-reveal>
+        <a href="#system" class="btn-glow" data-hover>INITIALIZE <span class="arrow">→</span></a>
+        <a href="#archive" class="btn-ghost" data-hover>EXPLORE ARCHIVE</a>
+      </div>
+      <div class="scroll-indicator" data-hover>
+        <span>SCROLL</span>
+        <div class="scroll-line"><div class="scroll-dot"></div></div>
+      </div>
+    </section>
+
+    <section class="features" id="system">
+      <p class="section-tag" data-reveal>// 01 — CORE SYSTEMS</p>
+      <h2 class="section-title" data-reveal>Built from light,<br/>rendered in real time.</h2>
+
+      <div class="card-grid">
+        <div class="card-wrap">
+          <article class="glass card" data-tilt data-hover>
+            <div class="card-icon"><span>◇</span></div>
+            <h3>Neural Interface</h3>
+            <p>Adaptive UI fields that respond to motion and intent, blurring the line between cursor and consciousness.</p>
+            <span class="card-index">01</span>
+          </article>
+        </div>
+        <div class="card-wrap">
+          <article class="glass card" data-tilt data-hover>
+            <div class="card-icon"><span>◈</span></div>
+            <h3>Quantum Rendering</h3>
+            <p>Thousands of particles simulated in real time, each one a fragment of an unstable, glowing universe.</p>
+            <span class="card-index">02</span>
+          </article>
+        </div>
+        <div class="card-wrap">
+          <article class="glass card" data-tilt data-hover>
+            <div class="card-icon"><span>◆</span></div>
+            <h3>Holographic Layers</h3>
+            <p>Depth without weight — interface panels floating on layered glass, lit from within by neon signal.</p>
+            <span class="card-index">03</span>
+          </article>
+        </div>
+        <div class="card-wrap">
+          <article class="glass card" data-tilt data-hover>
+            <div class="card-icon"><span>◉</span></div>
+            <h3>Live Simulation</h3>
+            <p>A persistent 3D environment that never stops moving — abstract, cinematic, endlessly recomposing.</p>
+            <span class="card-index">04</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase" id="archive">
+      <div class="showcase-track">
+
+        <div class="showcase-panel" data-panel="0">
+          <p class="section-tag">// 02 — ARCHIVE</p>
+          <h2 class="showcase-title gradient-text">DESIGN</h2>
+          <p class="showcase-desc">Every form begins as light in a vacuum — composed, abstract, intentional. The universe is sketched before it's built.</p>
+        </div>
+
+        <div class="showcase-panel" data-panel="1">
+          <p class="section-tag">// 02 — ARCHIVE</p>
+          <h2 class="showcase-title gradient-text">SIMULATE</h2>
+          <p class="showcase-desc">Particles scatter, gather, and drift through fields of force — a living system rendered at sixty frames a second.</p>
+        </div>
+
+        <div class="showcase-panel" data-panel="2">
+          <p class="section-tag">// 02 — ARCHIVE</p>
+          <h2 class="showcase-title gradient-text">DEPLOY</h2>
+          <p class="showcase-desc">What was once abstract becomes interface — glass, glow, and motion delivered straight into the browser.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta" id="protocol">
+      <div class="glass cta-panel" data-hover>
+        <p class="section-tag" data-reveal>// 03 — PROTOCOL</p>
+        <h2 class="cta-title" data-reveal>Ready to enter<br/>the <span class="gradient-text">next dimension?</span></h2>
+        <a href="#connect" class="btn-glow btn-large" data-hover data-reveal>INITIALIZE SYSTEM <span class="arrow">→</span></a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="connect">
+    <div class="footer-logo"><span class="nav-logo-mark">◈</span> NEXUS</div>
+    <p>© 2026 NEXUS SYSTEMS — TRANSMITTED FROM THE EDGE OF THE NETWORK</p>
+    <div class="footer-links">
+      <a href="#" data-hover>TRANSMISSION</a>
+      <a href="#" data-hover>FREQUENCY</a>
+      <a href="#" data-hover>SIGNAL</a>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
